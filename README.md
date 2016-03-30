@@ -5,17 +5,23 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version -
+  Ruby 2.3.0
 
-* System dependencies
+* System dependencies -
 
-* Configuration
+* Configuration -
+   Install overcommit - overcommit --install
 
-* Database creation
+* Database creation -
+  rails db:create
+  rails db:migrate
 
-* Database initialization
+* Database initialization -
+  rails db:seeds
 
-* How to run the test suite
+* How to run the test suite -
+  rails test
 
 * Services (job queues, cache servers, search engines, etc.)
 
